@@ -74,7 +74,7 @@ def main():
     given_entities = esbm_benchmark_path + 'elist.txt'
     target_entities = set([])
     for row in open(given_entities):
-        target_entities.add('<' + row.strip().split('\t')[2] + '>')
+        target_entities.add('<' + row.strip().split('\t')[3] + '>')
 
     for entity_idx in range(1, 141):
 
