@@ -13,6 +13,7 @@ version = '1.0'
 
 # Configurations
 # =============================================================================
+# esbm_benchmark_path = './ESBM_plus/'
 esbm_benchmark_path = './ESBM_benchmark/'
 
 fca_lattice_path = './KAFCA_lattice/'
@@ -76,9 +77,8 @@ def main():
     for row in open(given_entities):
         target_entities.add('<' + row.strip().split('\t')[3] + '>')
 
-    for entity_idx in range(1, 141):
-
-        if entity_idx > 100:
+    for entity_idx in range(1, 176):
+        if 100 < entity_idx < 141 or entity_idx > 165:
             targetKB = 'lmdb'
         else:
             targetKB = 'dbpedia'
