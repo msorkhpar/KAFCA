@@ -131,7 +131,6 @@
 <http://data.linkedmdb.org/resource/actor/35616> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/35688> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/35936> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/36188> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/36306> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/36329> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
@@ -787,9 +786,6 @@
 <http://data.linkedmdb.org/resource/performance/42430> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/70134> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/75295> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/actor_actorid> "36141"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://www.w3.org/2000/01/rdf-schema#label> "Francis Ng (Actor)" .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/actor_name> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/107587> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/115451> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/122860> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
@@ -1043,7 +1039,6 @@
 <http://data.linkedmdb.org/resource/actor/36018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/36038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/36078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/36188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/36301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/36306> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
@@ -1260,205 +1255,138 @@
 <http://data.linkedmdb.org/resource/actor/9697> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/9785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/9999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/107587> .
 <http://data.linkedmdb.org/resource/film/23695> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/107587> .
-<http://data.linkedmdb.org/resource/performance/107587> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/107587> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "107587"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/107587> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/107587> <http://data.linkedmdb.org/resource/movie/performance_film> "Young and Dangerous: The Prequel" .
 <http://data.linkedmdb.org/resource/performance/107587> <http://www.w3.org/2000/01/rdf-schema#label> "performance #107587" .
 <http://data.linkedmdb.org/resource/performance/107587> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/107587> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000080c05d9> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/115451> .
 <http://data.linkedmdb.org/resource/film/15021> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/115451> .
-<http://data.linkedmdb.org/resource/performance/115451> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/115451> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "115451"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/115451> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/115451> <http://data.linkedmdb.org/resource/movie/performance_film> "Once Upon A Time in Triad Society" .
 <http://data.linkedmdb.org/resource/performance/115451> <http://www.w3.org/2000/01/rdf-schema#label> "performance #115451" .
 <http://data.linkedmdb.org/resource/performance/115451> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/115451> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000008dcbf24> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/122860> .
 <http://data.linkedmdb.org/resource/film/59733> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/122860> .
-<http://data.linkedmdb.org/resource/performance/122860> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/122860> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "122860"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/122860> <http://data.linkedmdb.org/resource/movie/performance_film> "Curse of Lola" .
-<http://data.linkedmdb.org/resource/performance/122860> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/122860> <http://www.w3.org/2000/01/rdf-schema#label> "performance #122860" .
 <http://data.linkedmdb.org/resource/performance/122860> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/122860> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000009008579> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/128183> .
 <http://data.linkedmdb.org/resource/film/63495> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/128183> .
-<http://data.linkedmdb.org/resource/performance/128183> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/128183> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "128183"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/128183> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/128183> <http://data.linkedmdb.org/resource/movie/performance_film> "Never Compromise" .
 <http://data.linkedmdb.org/resource/performance/128183> <http://www.w3.org/2000/01/rdf-schema#label> "performance #128183" .
 <http://data.linkedmdb.org/resource/performance/128183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/128183> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000009015147> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/129784> .
 <http://data.linkedmdb.org/resource/film/64450> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/129784> .
-<http://data.linkedmdb.org/resource/performance/129784> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/129784> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "129784"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/129784> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/129784> <http://data.linkedmdb.org/resource/movie/performance_film> "Full Alert" .
 <http://data.linkedmdb.org/resource/performance/129784> <http://www.w3.org/2000/01/rdf-schema#label> "performance #129784" .
 <http://data.linkedmdb.org/resource/performance/129784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/129784> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000009018e5c> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/131718> .
 <http://data.linkedmdb.org/resource/film/57086> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/131718> .
-<http://data.linkedmdb.org/resource/performance/131718> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/131718> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "131718"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/131718> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/131718> <http://data.linkedmdb.org/resource/movie/performance_film> "Heroic Duo" .
 <http://data.linkedmdb.org/resource/performance/131718> <http://www.w3.org/2000/01/rdf-schema#label> "performance #131718" .
 <http://data.linkedmdb.org/resource/performance/131718> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/131718> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000092bde81> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/140336> .
 <http://data.linkedmdb.org/resource/film/19963> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/140336> .
-<http://data.linkedmdb.org/resource/performance/140336> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/140336> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "140336"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/140336> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/140336> <http://data.linkedmdb.org/resource/movie/performance_film> "Shamo" .
 <http://data.linkedmdb.org/resource/performance/140336> <http://www.w3.org/2000/01/rdf-schema#label> "performance #140336" .
 <http://data.linkedmdb.org/resource/performance/140336> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/140336> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000009625a1f> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/160521> .
 <http://data.linkedmdb.org/resource/film/76933> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/160521> .
-<http://data.linkedmdb.org/resource/performance/160521> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/160521> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "160521"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/160521> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/160521> <http://data.linkedmdb.org/resource/movie/performance_film> "Love Trilogy" .
 <http://data.linkedmdb.org/resource/performance/160521> <http://www.w3.org/2000/01/rdf-schema#label> "performance #160521" .
 <http://data.linkedmdb.org/resource/performance/160521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/160521> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000b959b7f> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/36053> .
 <http://data.linkedmdb.org/resource/film/46460> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/36053> .
-<http://data.linkedmdb.org/resource/performance/36053> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/36053> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "36053"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/36053> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/36053> <http://data.linkedmdb.org/resource/movie/performance_film> "The White Dragon" .
 <http://data.linkedmdb.org/resource/performance/36053> <http://www.w3.org/2000/01/rdf-schema#label> "performance #36053" .
 <http://data.linkedmdb.org/resource/performance/36053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/36053> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000001136fb3> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/50061> .
 <http://data.linkedmdb.org/resource/film/13700> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/50061> .
-<http://data.linkedmdb.org/resource/performance/50061> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/50061> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "50061"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/50061> <http://data.linkedmdb.org/resource/movie/performance_film> "All's Well, Ends Well 1997" .
-<http://data.linkedmdb.org/resource/performance/50061> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/50061> <http://www.w3.org/2000/01/rdf-schema#label> "performance #50061" .
 <http://data.linkedmdb.org/resource/performance/50061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/50061> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a51461> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/57193> .
 <http://data.linkedmdb.org/resource/film/11547> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/57193> .
-<http://data.linkedmdb.org/resource/performance/57193> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/57193> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "57193"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/57193> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/57193> <http://data.linkedmdb.org/resource/movie/performance_film> "Karmic Mahjong" .
 <http://data.linkedmdb.org/resource/performance/57193> <http://www.w3.org/2000/01/rdf-schema#label> "performance #57193" .
 <http://data.linkedmdb.org/resource/performance/57193> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/57193> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a567f5> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/57903> .
 <http://data.linkedmdb.org/resource/film/14139> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/57903> .
-<http://data.linkedmdb.org/resource/performance/57903> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/57903> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "57903"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/57903> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/57903> <http://data.linkedmdb.org/resource/movie/performance_film> "The Closet" .
 <http://data.linkedmdb.org/resource/performance/57903> <http://www.w3.org/2000/01/rdf-schema#label> "performance #57903" .
 <http://data.linkedmdb.org/resource/performance/57903> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/57903> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a57047> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/58524> .
 <http://data.linkedmdb.org/resource/film/40637> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/58524> .
-<http://data.linkedmdb.org/resource/performance/58524> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/58524> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "58524"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/58524> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/58524> <http://data.linkedmdb.org/resource/movie/performance_film> "Infernal Affairs II" .
 <http://data.linkedmdb.org/resource/performance/58524> <http://www.w3.org/2000/01/rdf-schema#label> "performance #58524" .
 <http://data.linkedmdb.org/resource/performance/58524> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/58524> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a5778e> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/60580> .
 <http://data.linkedmdb.org/resource/film/10853> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/60580> .
-<http://data.linkedmdb.org/resource/performance/60580> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/60580> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "60580"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/60580> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/60580> <http://data.linkedmdb.org/resource/movie/performance_film> "Himalaya Singh" .
 <http://data.linkedmdb.org/resource/performance/60580> <http://www.w3.org/2000/01/rdf-schema#label> "performance #60580" .
 <http://data.linkedmdb.org/resource/performance/60580> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/60580> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a58fa6> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/61076> .
 <http://data.linkedmdb.org/resource/film/13144> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/61076> .
-<http://data.linkedmdb.org/resource/performance/61076> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/61076> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "61076"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/61076> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/61076> <http://data.linkedmdb.org/resource/movie/performance_film> "The Mission" .
 <http://data.linkedmdb.org/resource/performance/61076> <http://www.w3.org/2000/01/rdf-schema#label> "performance #61076" .
 <http://data.linkedmdb.org/resource/performance/61076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/61076> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a59576> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/65403> .
 <http://data.linkedmdb.org/resource/film/49795> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/65403> .
-<http://data.linkedmdb.org/resource/performance/65403> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/65403> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "65403"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/65403> <http://data.linkedmdb.org/resource/movie/performance_film> "Exiled" .
-<http://data.linkedmdb.org/resource/performance/65403> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/65403> <http://www.w3.org/2000/01/rdf-schema#label> "performance #65403" .
 <http://data.linkedmdb.org/resource/performance/65403> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/65403> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a5c82d> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/66281> .
 <http://data.linkedmdb.org/resource/film/16976> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/66281> .
-<http://data.linkedmdb.org/resource/performance/66281> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/66281> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "66281"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/66281> <http://data.linkedmdb.org/resource/movie/performance_film> "Beauty and the Breast" .
-<http://data.linkedmdb.org/resource/performance/66281> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/66281> <http://www.w3.org/2000/01/rdf-schema#label> "performance #66281" .
 <http://data.linkedmdb.org/resource/performance/66281> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/66281> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a5d277> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/77142> .
 <http://data.linkedmdb.org/resource/film/8548> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/77142> .
-<http://data.linkedmdb.org/resource/performance/77142> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/77142> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "77142"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/77142> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/77142> <http://data.linkedmdb.org/resource/movie/performance_film> "Those Were the Days" .
 <http://data.linkedmdb.org/resource/performance/77142> <http://www.w3.org/2000/01/rdf-schema#label> "performance #77142" .
 <http://data.linkedmdb.org/resource/performance/77142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/77142> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070acdf4> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/83973> .
 <http://data.linkedmdb.org/resource/film/8731> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/83973> .
-<http://data.linkedmdb.org/resource/performance/83973> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/83973> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "83973"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/83973> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/83973> <http://data.linkedmdb.org/resource/movie/performance_film> "The Golden Girls" .
 <http://data.linkedmdb.org/resource/performance/83973> <http://www.w3.org/2000/01/rdf-schema#label> "performance #83973" .
 <http://data.linkedmdb.org/resource/performance/83973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/83973> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070bd746> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/88060> .
 <http://data.linkedmdb.org/resource/film/16513> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/88060> .
-<http://data.linkedmdb.org/resource/performance/88060> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/88060> <http://data.linkedmdb.org/resource/movie/performance_film> "2000 AD" .
 <http://data.linkedmdb.org/resource/performance/88060> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "88060"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/88060> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/88060> <http://www.w3.org/2000/01/rdf-schema#label> "performance #88060" .
 <http://data.linkedmdb.org/resource/performance/88060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/88060> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070c7030> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/88474> .
 <http://data.linkedmdb.org/resource/film/41076> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/88474> .
-<http://data.linkedmdb.org/resource/performance/88474> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/88474> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "88474"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/88474> <http://data.linkedmdb.org/resource/movie/performance_film> "Flirting Scholar" .
-<http://data.linkedmdb.org/resource/performance/88474> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/88474> <http://www.w3.org/2000/01/rdf-schema#label> "performance #88474" .
 <http://data.linkedmdb.org/resource/performance/88474> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/88474> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070c7f6c> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/92016> .
 <http://data.linkedmdb.org/resource/film/19139> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/92016> .
-<http://data.linkedmdb.org/resource/performance/92016> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/92016> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "92016"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/92016> <http://data.linkedmdb.org/resource/movie/performance_actor> "Francis Ng" .
 <http://data.linkedmdb.org/resource/performance/92016> <http://data.linkedmdb.org/resource/movie/performance_film> "God of Gamblers 3: The Early Stage" .
 <http://data.linkedmdb.org/resource/performance/92016> <http://www.w3.org/2000/01/rdf-schema#label> "performance #92016" .
 <http://data.linkedmdb.org/resource/performance/92016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/92016> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000007200ae2> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000004d578b> .
 <http://data.linkedmdb.org/resource/actor/10117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/10229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/10277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -1690,7 +1618,6 @@
 <http://data.linkedmdb.org/resource/actor/36018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/36038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/36078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.linkedmdb.org/resource/actor/36141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/36188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/36301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/36306> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .

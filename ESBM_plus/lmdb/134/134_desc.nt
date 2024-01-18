@@ -142,7 +142,6 @@
 <http://data.linkedmdb.org/resource/actor/38898> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/39031> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/39434> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/39854> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/40417> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/40768> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
@@ -775,9 +774,6 @@
 <http://data.linkedmdb.org/resource/performance/42430> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/70134> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/75295> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/actor_actorid> "39725"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://www.w3.org/2000/01/rdf-schema#label> "Tom Hollander (Actor)" .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/actor_name> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/115310> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/149302> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/17353> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
@@ -1080,7 +1076,6 @@
 <http://data.linkedmdb.org/resource/actor/39157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/39404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/39434> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/39762> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/39854> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/39981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
@@ -1242,153 +1237,104 @@
 <http://data.linkedmdb.org/resource/actor/9697> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/9785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/9999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/115310> .
 <http://data.linkedmdb.org/resource/film/1073> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/115310> .
-<http://data.linkedmdb.org/resource/performance/115310> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/115310> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "115310"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/115310> <http://data.linkedmdb.org/resource/movie/performance_film> "Possession" .
-<http://data.linkedmdb.org/resource/performance/115310> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/115310> <http://www.w3.org/2000/01/rdf-schema#label> "performance #115310" .
 <http://data.linkedmdb.org/resource/performance/115310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/115310> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000008d94280> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/149302> .
 <http://data.linkedmdb.org/resource/film/73597> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/149302> .
-<http://data.linkedmdb.org/resource/performance/149302> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/149302> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "149302"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/149302> <http://data.linkedmdb.org/resource/movie/performance_film> "In the Loop" .
 <http://data.linkedmdb.org/resource/performance/149302> <http://data.linkedmdb.org/resource/movie/performance_character> "Simon Foster" .
-<http://data.linkedmdb.org/resource/performance/149302> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/149302> <http://www.w3.org/2000/01/rdf-schema#label> "performance #149302" .
 <http://data.linkedmdb.org/resource/performance/149302> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/11307> .
 <http://data.linkedmdb.org/resource/performance/149302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/149302> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000ab7d15f> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/17353> .
 <http://data.linkedmdb.org/resource/film/7122> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/17353> .
-<http://data.linkedmdb.org/resource/performance/17353> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/17353> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "17353"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/17353> <http://data.linkedmdb.org/resource/movie/performance_film> "Land of the Blind" .
-<http://data.linkedmdb.org/resource/performance/17353> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/17353> <http://www.w3.org/2000/01/rdf-schema#label> "performance #17353" .
 <http://data.linkedmdb.org/resource/performance/17353> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/17353> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000010fdfaf> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/22849> .
 <http://data.linkedmdb.org/resource/film/41807> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/22849> .
-<http://data.linkedmdb.org/resource/performance/22849> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/22849> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "22849"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/22849> <http://data.linkedmdb.org/resource/movie/performance_film> "Pirates of the Caribbean: At World's End" .
-<http://data.linkedmdb.org/resource/performance/22849> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/22849> <http://www.w3.org/2000/01/rdf-schema#label> "performance #22849" .
 <http://data.linkedmdb.org/resource/performance/22849> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/22849> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000110f37c> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/22859> .
 <http://data.linkedmdb.org/resource/film/1734> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/22859> .
-<http://data.linkedmdb.org/resource/performance/22859> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/22859> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "22859"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/22859> <http://data.linkedmdb.org/resource/movie/performance_film> "Pirates of the Caribbean: Dead Man's Chest" .
-<http://data.linkedmdb.org/resource/performance/22859> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/22859> <http://www.w3.org/2000/01/rdf-schema#label> "performance #22859" .
 <http://data.linkedmdb.org/resource/performance/22859> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/22859> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000110f3bb> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/23395> .
 <http://data.linkedmdb.org/resource/film/3633> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/23395> .
-<http://data.linkedmdb.org/resource/performance/23395> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/23395> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "23395"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/23395> <http://data.linkedmdb.org/resource/movie/performance_film> "Pride & Prejudice" .
-<http://data.linkedmdb.org/resource/performance/23395> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/23395> <http://www.w3.org/2000/01/rdf-schema#label> "performance #23395" .
 <http://data.linkedmdb.org/resource/performance/23395> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/23395> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000001110b2f> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/3908> .
 <http://data.linkedmdb.org/resource/film/43841> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/3908> .
-<http://data.linkedmdb.org/resource/performance/3908> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/3908> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "3908"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/3908> <http://data.linkedmdb.org/resource/movie/performance_film> "Bedrooms and Hallways" .
-<http://data.linkedmdb.org/resource/performance/3908> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/3908> <http://www.w3.org/2000/01/rdf-schema#label> "performance #3908" .
 <http://data.linkedmdb.org/resource/performance/3908> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/3908> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000010d1507> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/59230> .
 <http://data.linkedmdb.org/resource/film/2391> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/59230> .
-<http://data.linkedmdb.org/resource/performance/59230> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/59230> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "59230"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/59230> <http://data.linkedmdb.org/resource/movie/performance_film> "Martha, Meet Frank, Daniel and Laurence" .
-<http://data.linkedmdb.org/resource/performance/59230> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/59230> <http://www.w3.org/2000/01/rdf-schema#label> "performance #59230" .
 <http://data.linkedmdb.org/resource/performance/59230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/59230> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a57fd4> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/629> .
 <http://data.linkedmdb.org/resource/film/45680> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/629> .
-<http://data.linkedmdb.org/resource/performance/629> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/629> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "629"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/629> <http://data.linkedmdb.org/resource/movie/performance_film> "A Good Year" .
-<http://data.linkedmdb.org/resource/performance/629> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/629> <http://www.w3.org/2000/01/rdf-schema#label> "performance #629" .
 <http://data.linkedmdb.org/resource/performance/629> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/629> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000010c5eaa> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/76021> .
 <http://data.linkedmdb.org/resource/film/44657> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/76021> .
-<http://data.linkedmdb.org/resource/performance/76021> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/76021> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "76021"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/76021> <http://data.linkedmdb.org/resource/movie/performance_film> "Maybe Baby" .
-<http://data.linkedmdb.org/resource/performance/76021> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/76021> <http://www.w3.org/2000/01/rdf-schema#label> "performance #76021" .
 <http://data.linkedmdb.org/resource/performance/76021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/76021> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070aa1c6> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/76420> .
 <http://data.linkedmdb.org/resource/film/16197> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/76420> .
-<http://data.linkedmdb.org/resource/performance/76420> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/76420> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "76420"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/76420> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/76420> <http://data.linkedmdb.org/resource/movie/performance_film> "Valkyrie" .
 <http://data.linkedmdb.org/resource/performance/76420> <http://www.w3.org/2000/01/rdf-schema#label> "performance #76420" .
 <http://data.linkedmdb.org/resource/performance/76420> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/76420> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070ab1f9> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/79066> .
 <http://data.linkedmdb.org/resource/film/12260> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/79066> .
-<http://data.linkedmdb.org/resource/performance/79066> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/79066> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "79066"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/79066> <http://data.linkedmdb.org/resource/movie/performance_film> "Pirates of the Caribbean films" .
-<http://data.linkedmdb.org/resource/performance/79066> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/79066> <http://www.w3.org/2000/01/rdf-schema#label> "performance #79066" .
 <http://data.linkedmdb.org/resource/performance/79066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/79066> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070b1b17> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/83099> .
 <http://data.linkedmdb.org/resource/film/3386> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/83099> .
-<http://data.linkedmdb.org/resource/performance/83099> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/83099> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "83099"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/83099> <http://data.linkedmdb.org/resource/movie/performance_film> "The Libertine" .
-<http://data.linkedmdb.org/resource/performance/83099> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/83099> <http://www.w3.org/2000/01/rdf-schema#label> "performance #83099" .
 <http://data.linkedmdb.org/resource/performance/83099> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/83099> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070bb523> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/85137> .
 <http://data.linkedmdb.org/resource/film/1773> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/85137> .
-<http://data.linkedmdb.org/resource/performance/85137> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/85137> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "85137"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/85137> <http://data.linkedmdb.org/resource/movie/performance_film> "Elizabeth: The Golden Age" .
-<http://data.linkedmdb.org/resource/performance/85137> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/85137> <http://www.w3.org/2000/01/rdf-schema#label> "performance #85137" .
 <http://data.linkedmdb.org/resource/performance/85137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/85137> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070c0546> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/85850> .
 <http://data.linkedmdb.org/resource/film/2116> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/85850> .
-<http://data.linkedmdb.org/resource/performance/85850> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/85850> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "85850"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/85850> <http://data.linkedmdb.org/resource/movie/performance_film> "Enigma" .
-<http://data.linkedmdb.org/resource/performance/85850> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/85850> <http://www.w3.org/2000/01/rdf-schema#label> "performance #85850" .
 <http://data.linkedmdb.org/resource/performance/85850> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/85850> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070c20b7> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/90120> .
 <http://data.linkedmdb.org/resource/film/38615> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/90120> .
-<http://data.linkedmdb.org/resource/performance/90120> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/90120> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "90120"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/90120> <http://data.linkedmdb.org/resource/movie/performance_film> "Gosford Park" .
-<http://data.linkedmdb.org/resource/performance/90120> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tom Hollander" .
 <http://data.linkedmdb.org/resource/performance/90120> <http://www.w3.org/2000/01/rdf-schema#label> "performance #90120" .
 <http://data.linkedmdb.org/resource/performance/90120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/90120> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070cb7ad> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000072977e> .
 <http://data.linkedmdb.org/resource/actor/10117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/10229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/10277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -1675,7 +1621,6 @@
 <http://data.linkedmdb.org/resource/actor/39157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/39404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/39434> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.linkedmdb.org/resource/actor/39725> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/39762> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/39854> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/39981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .

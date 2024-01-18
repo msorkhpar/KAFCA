@@ -80,7 +80,6 @@
 <http://data.linkedmdb.org/resource/actor/32491> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/32500> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/32619> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/32753> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/32793> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/33031> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
@@ -770,9 +769,6 @@
 <http://data.linkedmdb.org/resource/performance/42430> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/70134> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/75295> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/actor_actorid> "32648"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://www.w3.org/2000/01/rdf-schema#label> "Tomokazu Seki (Actor)" .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/actor_name> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/10267> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/105895> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/114399> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
@@ -928,7 +924,6 @@
 <http://data.linkedmdb.org/resource/actor/32521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/32532> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/32619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/32657> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/32661> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/32673> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
@@ -1234,124 +1229,84 @@
 <http://data.linkedmdb.org/resource/actor/9697> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/9785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/9999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/10267> .
 <http://data.linkedmdb.org/resource/film/1531> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/10267> .
-<http://data.linkedmdb.org/resource/performance/10267> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/10267> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "10267"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/10267> <http://data.linkedmdb.org/resource/movie/performance_film> "Escaflowne" .
-<http://data.linkedmdb.org/resource/performance/10267> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/10267> <http://www.w3.org/2000/01/rdf-schema#label> "performance #10267" .
 <http://data.linkedmdb.org/resource/performance/10267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/10267> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000010e71ab> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/105895> .
 <http://data.linkedmdb.org/resource/film/24490> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/105895> .
-<http://data.linkedmdb.org/resource/performance/105895> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/105895> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "105895"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/105895> <http://data.linkedmdb.org/resource/movie/performance_film> "Nobita and the Green Giant Legend 2008" .
-<http://data.linkedmdb.org/resource/performance/105895> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/105895> <http://www.w3.org/2000/01/rdf-schema#label> "performance #105895" .
 <http://data.linkedmdb.org/resource/performance/105895> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/105895> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000080a17dc> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/114399> .
 <http://data.linkedmdb.org/resource/film/54902> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/114399> .
-<http://data.linkedmdb.org/resource/performance/114399> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/114399> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "114399"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/114399> <http://data.linkedmdb.org/resource/movie/performance_film> "Nobita and the Animal Planet 2009" .
-<http://data.linkedmdb.org/resource/performance/114399> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/114399> <http://www.w3.org/2000/01/rdf-schema#label> "performance #114399" .
 <http://data.linkedmdb.org/resource/performance/114399> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/114399> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000008c7ed3f> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/121912> .
 <http://data.linkedmdb.org/resource/film/59061> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/121912> .
-<http://data.linkedmdb.org/resource/performance/121912> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/121912> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "121912"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/121912> <http://data.linkedmdb.org/resource/movie/performance_film> "Full Metal Panic: The Second Raid" .
-<http://data.linkedmdb.org/resource/performance/121912> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/121912> <http://www.w3.org/2000/01/rdf-schema#label> "performance #121912" .
 <http://data.linkedmdb.org/resource/performance/121912> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/121912> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000009006193> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/124479> .
 <http://data.linkedmdb.org/resource/film/60878> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/124479> .
-<http://data.linkedmdb.org/resource/performance/124479> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/124479> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "124479"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/124479> <http://data.linkedmdb.org/resource/movie/performance_film> "Full Metal Panic FUMOFFU" .
-<http://data.linkedmdb.org/resource/performance/124479> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/124479> <http://www.w3.org/2000/01/rdf-schema#label> "performance #124479" .
 <http://data.linkedmdb.org/resource/performance/124479> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/124479> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000900c344> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/125790> .
 <http://data.linkedmdb.org/resource/film/61816> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/125790> .
-<http://data.linkedmdb.org/resource/performance/125790> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/125790> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "125790"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/125790> <http://data.linkedmdb.org/resource/movie/performance_film> "Cyberteam in Akihabara" .
-<http://data.linkedmdb.org/resource/performance/125790> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/125790> <http://www.w3.org/2000/01/rdf-schema#label> "performance #125790" .
 <http://data.linkedmdb.org/resource/performance/125790> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/125790> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000900f4b8> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/127422> .
 <http://data.linkedmdb.org/resource/film/62972> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/127422> .
-<http://data.linkedmdb.org/resource/performance/127422> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/127422> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "127422"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/127422> <http://data.linkedmdb.org/resource/movie/performance_film> "Full Metal Panic!" .
-<http://data.linkedmdb.org/resource/performance/127422> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/127422> <http://www.w3.org/2000/01/rdf-schema#label> "performance #127422" .
 <http://data.linkedmdb.org/resource/performance/127422> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/127422> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000009013359> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/127454> .
 <http://data.linkedmdb.org/resource/film/62997> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/127454> .
-<http://data.linkedmdb.org/resource/performance/127454> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/127454> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "127454"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/127454> <http://data.linkedmdb.org/resource/movie/performance_film> "Captain Herlock" .
-<http://data.linkedmdb.org/resource/performance/127454> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/127454> <http://www.w3.org/2000/01/rdf-schema#label> "performance #127454" .
 <http://data.linkedmdb.org/resource/performance/127454> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/127454> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000090134a0> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/127572> .
 <http://data.linkedmdb.org/resource/film/63080> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/127572> .
-<http://data.linkedmdb.org/resource/performance/127572> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/127572> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "127572"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/127572> <http://data.linkedmdb.org/resource/movie/performance_film> "Android Kikaider" .
-<http://data.linkedmdb.org/resource/performance/127572> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/127572> <http://www.w3.org/2000/01/rdf-schema#label> "performance #127572" .
 <http://data.linkedmdb.org/resource/performance/127572> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/127572> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000009013928> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/129624> .
 <http://data.linkedmdb.org/resource/film/64477> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/129624> .
-<http://data.linkedmdb.org/resource/performance/129624> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/129624> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "129624"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/129624> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/129624> <http://data.linkedmdb.org/resource/movie/performance_film> "X: The Movie" .
 <http://data.linkedmdb.org/resource/performance/129624> <http://www.w3.org/2000/01/rdf-schema#label> "performance #129624" .
 <http://data.linkedmdb.org/resource/performance/129624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/129624> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000009018899> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/132536> .
 <http://data.linkedmdb.org/resource/film/56333> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/132536> .
-<http://data.linkedmdb.org/resource/performance/132536> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/132536> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "132536"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/132536> <http://data.linkedmdb.org/resource/movie/performance_film> "Doraemon: The New Record of Nobita: Spaceblazer" .
-<http://data.linkedmdb.org/resource/performance/132536> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/132536> <http://www.w3.org/2000/01/rdf-schema#label> "performance #132536" .
 <http://data.linkedmdb.org/resource/performance/132536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/132536> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000092c243b> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/21380> .
 <http://data.linkedmdb.org/resource/film/49130> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/21380> .
-<http://data.linkedmdb.org/resource/performance/21380> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/21380> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "21380"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/21380> <http://data.linkedmdb.org/resource/movie/performance_film> "Doraemon The Movie 2006" .
-<http://data.linkedmdb.org/resource/performance/21380> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/21380> <http://www.w3.org/2000/01/rdf-schema#label> "performance #21380" .
 <http://data.linkedmdb.org/resource/performance/21380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/21380> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000110aaac> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/68310> .
 <http://data.linkedmdb.org/resource/film/12047> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/68310> .
-<http://data.linkedmdb.org/resource/performance/68310> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/68310> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "68310"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/68310> <http://data.linkedmdb.org/resource/movie/performance_film> "Cardcaptor: The Movie 2" .
-<http://data.linkedmdb.org/resource/performance/68310> <http://data.linkedmdb.org/resource/movie/performance_actor> "Tomokazu Seki" .
 <http://data.linkedmdb.org/resource/performance/68310> <http://www.w3.org/2000/01/rdf-schema#label> "performance #68310" .
 <http://data.linkedmdb.org/resource/performance/68310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/68310> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a5ea3e> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000028c1a8> .
 <http://data.linkedmdb.org/resource/actor/10117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/10229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/10277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -1494,7 +1449,6 @@
 <http://data.linkedmdb.org/resource/actor/32521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/32532> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/32619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/32657> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/32661> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/32673> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .

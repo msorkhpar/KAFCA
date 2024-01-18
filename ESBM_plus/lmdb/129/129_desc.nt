@@ -110,7 +110,6 @@
 <http://data.linkedmdb.org/resource/actor/32793> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/33031> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/33082> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/33140> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/33143> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/33534> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
@@ -795,9 +794,6 @@
 <http://data.linkedmdb.org/resource/performance/42430> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/70134> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/75295> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/actor_actorid> "33137"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://www.w3.org/2000/01/rdf-schema#label> "Maurice LaMarche (Actor)" .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/actor_name> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/100820> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/111174> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/120193> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
@@ -986,7 +982,6 @@
 <http://data.linkedmdb.org/resource/actor/32909> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/33031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/33082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/33140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/33143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/33226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
@@ -1272,245 +1267,166 @@
 <http://data.linkedmdb.org/resource/actor/9697> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/9785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/9999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/100820> .
 <http://data.linkedmdb.org/resource/film/20143> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/100820> .
-<http://data.linkedmdb.org/resource/performance/100820> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/100820> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "100820"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/100820> <http://data.linkedmdb.org/resource/movie/performance_film> "Futurama: The Beast with a Billion Backs" .
-<http://data.linkedmdb.org/resource/performance/100820> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/100820> <http://www.w3.org/2000/01/rdf-schema#label> "performance #100820" .
 <http://data.linkedmdb.org/resource/performance/100820> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/100820> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000008084579> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/111174> .
 <http://data.linkedmdb.org/resource/film/20144> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/111174> .
-<http://data.linkedmdb.org/resource/performance/111174> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/111174> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "111174"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/111174> <http://data.linkedmdb.org/resource/movie/performance_film> "Futurama: Bender's Game" .
-<http://data.linkedmdb.org/resource/performance/111174> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/111174> <http://www.w3.org/2000/01/rdf-schema#label> "performance #111174" .
 <http://data.linkedmdb.org/resource/performance/111174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/111174> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000008c5a0d6> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/120193> .
 <http://data.linkedmdb.org/resource/film/57845> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/120193> .
-<http://data.linkedmdb.org/resource/performance/120193> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/120193> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "120193"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/120193> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/120193> <http://data.linkedmdb.org/resource/movie/performance_film> "Sonic Underground: Sonic to the Rescue" .
 <http://data.linkedmdb.org/resource/performance/120193> <http://www.w3.org/2000/01/rdf-schema#label> "performance #120193" .
 <http://data.linkedmdb.org/resource/performance/120193> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/120193> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000009001e23> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/121429> .
 <http://data.linkedmdb.org/resource/film/58732> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/121429> .
-<http://data.linkedmdb.org/resource/performance/121429> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/121429> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "121429"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/121429> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/121429> <http://data.linkedmdb.org/resource/movie/performance_film> "Teen Titans: Season 3" .
 <http://data.linkedmdb.org/resource/performance/121429> <http://www.w3.org/2000/01/rdf-schema#label> "performance #121429" .
 <http://data.linkedmdb.org/resource/performance/121429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/121429> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000009004f2c> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/127956> .
 <http://data.linkedmdb.org/resource/film/63352> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/127956> .
-<http://data.linkedmdb.org/resource/performance/127956> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/127956> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "127956"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/127956> <http://data.linkedmdb.org/resource/movie/performance_film> "Inspector Gadget's Last Case" .
-<http://data.linkedmdb.org/resource/performance/127956> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/127956> <http://www.w3.org/2000/01/rdf-schema#label> "performance #127956" .
 <http://data.linkedmdb.org/resource/performance/127956> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/127956> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000901482f> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/136134> .
 <http://data.linkedmdb.org/resource/film/51303> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/136134> .
-<http://data.linkedmdb.org/resource/performance/136134> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/136134> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "136134"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/136134> <http://data.linkedmdb.org/resource/movie/performance_film> "Futurama: The Wild Green Yonder" .
-<http://data.linkedmdb.org/resource/performance/136134> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/136134> <http://www.w3.org/2000/01/rdf-schema#label> "performance #136134" .
 <http://data.linkedmdb.org/resource/performance/136134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/136134> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000009385bb6> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/145535> .
 <http://data.linkedmdb.org/resource/film/49928> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/145535> .
-<http://data.linkedmdb.org/resource/performance/145535> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/145535> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "145535"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/145535> <http://data.linkedmdb.org/resource/movie/performance_film> "Chariots of Fur" .
-<http://data.linkedmdb.org/resource/performance/145535> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/145535> <http://www.w3.org/2000/01/rdf-schema#label> "performance #145535" .
 <http://data.linkedmdb.org/resource/performance/145535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/145535> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000a25b73f> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/149684> .
 <http://data.linkedmdb.org/resource/film/39014> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/149684> .
-<http://data.linkedmdb.org/resource/performance/149684> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/149684> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "149684"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/149684> <http://data.linkedmdb.org/resource/movie/performance_film> "Inspector Gadget" .
-<http://data.linkedmdb.org/resource/performance/149684> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/149684> <http://www.w3.org/2000/01/rdf-schema#label> "performance #149684" .
 <http://data.linkedmdb.org/resource/performance/149684> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/149684> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000ab8c740> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/169956> .
 <http://data.linkedmdb.org/resource/film/84209> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/169956> .
-<http://data.linkedmdb.org/resource/performance/169956> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/169956> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "169956"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/169956> <http://data.linkedmdb.org/resource/movie/performance_film> "Benders Game" .
-<http://data.linkedmdb.org/resource/performance/169956> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/169956> <http://www.w3.org/2000/01/rdf-schema#label> "performance #169956" .
 <http://data.linkedmdb.org/resource/performance/169956> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/169956> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000c4f673b> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/171204> .
 <http://data.linkedmdb.org/resource/film/6195> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/171204> .
-<http://data.linkedmdb.org/resource/performance/171204> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/171204> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "171204"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/171204> <http://data.linkedmdb.org/resource/movie/performance_film> "Balto II: Wolf Quest" .
 <http://data.linkedmdb.org/resource/performance/171204> <http://data.linkedmdb.org/resource/movie/performance_character> "Balto" .
-<http://data.linkedmdb.org/resource/performance/171204> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/171204> <http://www.w3.org/2000/01/rdf-schema#label> "performance #171204" .
 <http://data.linkedmdb.org/resource/performance/171204> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/468> .
 <http://data.linkedmdb.org/resource/performance/171204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/171204> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000c64721c> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/171205> .
 <http://data.linkedmdb.org/resource/film/5345> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/171205> .
-<http://data.linkedmdb.org/resource/performance/171205> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/171205> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "171205"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/171205> <http://data.linkedmdb.org/resource/movie/performance_film> "Balto III: Wings of Change" .
 <http://data.linkedmdb.org/resource/performance/171205> <http://data.linkedmdb.org/resource/movie/performance_character> "Balto" .
-<http://data.linkedmdb.org/resource/performance/171205> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/171205> <http://www.w3.org/2000/01/rdf-schema#label> "performance #171205" .
 <http://data.linkedmdb.org/resource/performance/171205> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/468> .
 <http://data.linkedmdb.org/resource/performance/171205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/171205> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000c647222> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/28709> .
 <http://data.linkedmdb.org/resource/film/1559> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/28709> .
-<http://data.linkedmdb.org/resource/performance/28709> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/28709> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "28709"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/28709> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/28709> <http://data.linkedmdb.org/resource/movie/performance_film> "Team America: World Police" .
 <http://data.linkedmdb.org/resource/performance/28709> <http://www.w3.org/2000/01/rdf-schema#label> "performance #28709" .
 <http://data.linkedmdb.org/resource/performance/28709> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/28709> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000001121021> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/36966> .
 <http://data.linkedmdb.org/resource/film/4108> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/36966> .
-<http://data.linkedmdb.org/resource/performance/36966> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/36966> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "36966"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/36966> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/36966> <http://data.linkedmdb.org/resource/movie/performance_film> "Tom and Jerry: The Magic Ring" .
 <http://data.linkedmdb.org/resource/performance/36966> <http://www.w3.org/2000/01/rdf-schema#label> "performance #36966" .
 <http://data.linkedmdb.org/resource/performance/36966> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/36966> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000001139abf> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/58545> .
 <http://data.linkedmdb.org/resource/film/6435> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/58545> .
-<http://data.linkedmdb.org/resource/performance/58545> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/58545> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "58545"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/58545> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/58545> <http://data.linkedmdb.org/resource/movie/performance_film> "Mickey, Donald, Goofy: The Three Musketeers" .
 <http://data.linkedmdb.org/resource/performance/58545> <http://www.w3.org/2000/01/rdf-schema#label> "performance #58545" .
 <http://data.linkedmdb.org/resource/performance/58545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/58545> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a577cd> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/61135> .
 <http://data.linkedmdb.org/resource/film/44641> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/61135> .
-<http://data.linkedmdb.org/resource/performance/61135> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/61135> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "61135"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/61135> <http://data.linkedmdb.org/resource/movie/performance_film> "Alvin and the Chipmunks Meet the Wolfman" .
-<http://data.linkedmdb.org/resource/performance/61135> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/61135> <http://www.w3.org/2000/01/rdf-schema#label> "performance #61135" .
 <http://data.linkedmdb.org/resource/performance/61135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/61135> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a59627> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/7116> .
 <http://data.linkedmdb.org/resource/film/6924> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/7116> .
-<http://data.linkedmdb.org/resource/performance/7116> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/7116> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "7116"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/7116> <http://data.linkedmdb.org/resource/movie/performance_film> "Codename: Kids Next Door: Operation Z.E.R.O." .
-<http://data.linkedmdb.org/resource/performance/7116> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/7116> <http://www.w3.org/2000/01/rdf-schema#label> "performance #7116" .
 <http://data.linkedmdb.org/resource/performance/7116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/7116> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000010dc566> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/74259> .
 <http://data.linkedmdb.org/resource/film/49090> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/74259> .
-<http://data.linkedmdb.org/resource/performance/74259> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/74259> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "74259"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/74259> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/74259> <http://data.linkedmdb.org/resource/movie/performance_film> "The Little Mermaid III" .
 <http://data.linkedmdb.org/resource/performance/74259> <http://www.w3.org/2000/01/rdf-schema#label> "performance #74259" .
 <http://data.linkedmdb.org/resource/performance/74259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/74259> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a62ff5> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/76487> .
 <http://data.linkedmdb.org/resource/film/4344> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/76487> .
-<http://data.linkedmdb.org/resource/performance/76487> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/76487> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "76487"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/76487> <http://data.linkedmdb.org/resource/movie/performance_film> "Barnyard" .
-<http://data.linkedmdb.org/resource/performance/76487> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/76487> <http://www.w3.org/2000/01/rdf-schema#label> "performance #76487" .
 <http://data.linkedmdb.org/resource/performance/76487> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/76487> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070ab48b> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/76814> .
 <http://data.linkedmdb.org/resource/film/10643> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/76814> .
-<http://data.linkedmdb.org/resource/performance/76814> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/76814> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "76814"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/76814> <http://data.linkedmdb.org/resource/movie/performance_film> "Casper's Scare School" .
-<http://data.linkedmdb.org/resource/performance/76814> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/76814> <http://www.w3.org/2000/01/rdf-schema#label> "performance #76814" .
 <http://data.linkedmdb.org/resource/performance/76814> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/76814> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070ac167> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/77497> .
 <http://data.linkedmdb.org/resource/film/9051> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/77497> .
-<http://data.linkedmdb.org/resource/performance/77497> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/77497> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "77497"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/77497> <http://data.linkedmdb.org/resource/movie/performance_film> "Futurama: Bender's Big Score" .
-<http://data.linkedmdb.org/resource/performance/77497> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/77497> <http://www.w3.org/2000/01/rdf-schema#label> "performance #77497" .
 <http://data.linkedmdb.org/resource/performance/77497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/77497> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070adc52> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/77791> .
 <http://data.linkedmdb.org/resource/film/2823> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/77791> .
-<http://data.linkedmdb.org/resource/performance/77791> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/77791> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "77791"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/77791> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/77791> <http://data.linkedmdb.org/resource/movie/performance_film> "Wakko's Wish" .
 <http://data.linkedmdb.org/resource/performance/77791> <http://www.w3.org/2000/01/rdf-schema#label> "performance #77791" .
 <http://data.linkedmdb.org/resource/performance/77791> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/77791> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070ae8a1> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/80562> .
 <http://data.linkedmdb.org/resource/film/1040> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/80562> .
-<http://data.linkedmdb.org/resource/performance/80562> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/80562> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "80562"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/80562> <http://data.linkedmdb.org/resource/movie/performance_film> "Ed Wood" .
-<http://data.linkedmdb.org/resource/performance/80562> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/80562> <http://www.w3.org/2000/01/rdf-schema#label> "performance #80562" .
 <http://data.linkedmdb.org/resource/performance/80562> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/80562> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070b55dd> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/85285> .
 <http://data.linkedmdb.org/resource/film/10705> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/85285> .
-<http://data.linkedmdb.org/resource/performance/85285> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/85285> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "85285"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/85285> <http://data.linkedmdb.org/resource/movie/performance_film> "Bah, Humduck! A Looney Tunes Christmas" .
-<http://data.linkedmdb.org/resource/performance/85285> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/85285> <http://www.w3.org/2000/01/rdf-schema#label> "performance #85285" .
 <http://data.linkedmdb.org/resource/performance/85285> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/85285> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070c0b27> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/89309> .
 <http://data.linkedmdb.org/resource/film/1652> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/89309> .
-<http://data.linkedmdb.org/resource/performance/89309> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/89309> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "89309"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/89309> <http://data.linkedmdb.org/resource/movie/performance_film> "Hey Arnold!: The Movie" .
-<http://data.linkedmdb.org/resource/performance/89309> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/89309> <http://www.w3.org/2000/01/rdf-schema#label> "performance #89309" .
 <http://data.linkedmdb.org/resource/performance/89309> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/89309> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070c9c6f> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/92543> .
 <http://data.linkedmdb.org/resource/film/19674> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/92543> .
-<http://data.linkedmdb.org/resource/performance/92543> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/92543> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "92543"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/92543> <http://data.linkedmdb.org/resource/movie/performance_film> "Apes of Wrath" .
-<http://data.linkedmdb.org/resource/performance/92543> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/92543> <http://www.w3.org/2000/01/rdf-schema#label> "performance #92543" .
 <http://data.linkedmdb.org/resource/performance/92543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/92543> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000720680b> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/93828> .
 <http://data.linkedmdb.org/resource/film/41605> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/93828> .
-<http://data.linkedmdb.org/resource/performance/93828> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/93828> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "93828"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/93828> <http://data.linkedmdb.org/resource/movie/performance_actor> "Maurice LaMarche" .
 <http://data.linkedmdb.org/resource/performance/93828> <http://data.linkedmdb.org/resource/movie/performance_film> "Scooby-Doo in Arabian Nights" .
 <http://data.linkedmdb.org/resource/performance/93828> <http://www.w3.org/2000/01/rdf-schema#label> "performance #93828" .
 <http://data.linkedmdb.org/resource/performance/93828> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/93828> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000722ffc4> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000002dddf0> .
 <http://data.linkedmdb.org/resource/actor/10117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/10229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/10277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -1673,7 +1589,6 @@
 <http://data.linkedmdb.org/resource/actor/32909> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/33031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/33082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.linkedmdb.org/resource/actor/33137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/33140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/33143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/33226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .

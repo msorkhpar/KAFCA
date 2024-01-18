@@ -157,7 +157,6 @@
 <http://data.linkedmdb.org/resource/actor/46810> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/46898> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/46958> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/47098> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/47463> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/47469> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
@@ -767,9 +766,6 @@
 <http://data.linkedmdb.org/resource/performance/42430> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/70134> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/75295> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/actor_actorid> "47032"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://www.w3.org/2000/01/rdf-schema#label> "Columbus Short (Actor)" .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/actor_name> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/114368> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/115382> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/134547> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
@@ -1132,7 +1128,6 @@
 <http://data.linkedmdb.org/resource/actor/46829> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/46898> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/46958> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/47098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/47463> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/47469> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
@@ -1230,123 +1225,86 @@
 <http://data.linkedmdb.org/resource/actor/9697> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/9785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/9999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/114368> .
 <http://data.linkedmdb.org/resource/film/54847> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/114368> .
-<http://data.linkedmdb.org/resource/performance/114368> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/114368> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "114368"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/114368> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/114368> <http://data.linkedmdb.org/resource/movie/performance_film> "The Trunk" .
 <http://data.linkedmdb.org/resource/performance/114368> <http://www.w3.org/2000/01/rdf-schema#label> "performance #114368" .
 <http://data.linkedmdb.org/resource/performance/114368> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/114368> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000008c7e5ab> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/115382> .
 <http://data.linkedmdb.org/resource/film/53299> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/115382> .
-<http://data.linkedmdb.org/resource/performance/115382> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/115382> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "115382"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/115382> <http://data.linkedmdb.org/resource/movie/performance_film> "Cadillac Records" .
-<http://data.linkedmdb.org/resource/performance/115382> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/115382> <http://data.linkedmdb.org/resource/movie/performance_character> "Litte Walter" .
 <http://data.linkedmdb.org/resource/performance/115382> <http://www.w3.org/2000/01/rdf-schema#label> "performance #115382" .
 <http://data.linkedmdb.org/resource/performance/115382> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/8038> .
 <http://data.linkedmdb.org/resource/performance/115382> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/115382> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000008dc2ad5> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/134547> .
 <http://data.linkedmdb.org/resource/film/53825> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/134547> .
-<http://data.linkedmdb.org/resource/performance/134547> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/134547> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "134547"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/134547> <http://data.linkedmdb.org/resource/movie/performance_film> "Armored" .
-<http://data.linkedmdb.org/resource/performance/134547> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/134547> <http://data.linkedmdb.org/resource/movie/performance_character> "Ty Hackett" .
 <http://data.linkedmdb.org/resource/performance/134547> <http://www.w3.org/2000/01/rdf-schema#label> "performance #134547" .
 <http://data.linkedmdb.org/resource/performance/134547> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/13266> .
 <http://data.linkedmdb.org/resource/performance/134547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/134547> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000932d8d3> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/146941> .
 <http://data.linkedmdb.org/resource/film/70465> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/146941> .
-<http://data.linkedmdb.org/resource/performance/146941> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/146941> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "146941"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/146941> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/146941> <http://data.linkedmdb.org/resource/movie/performance_film> "Partners" .
 <http://data.linkedmdb.org/resource/performance/146941> <http://www.w3.org/2000/01/rdf-schema#label> "performance #146941" .
 <http://data.linkedmdb.org/resource/performance/146941> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/146941> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000a27d296> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/184656> .
 <http://data.linkedmdb.org/resource/film/95541> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/184656> .
-<http://data.linkedmdb.org/resource/performance/184656> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/184656> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "184656"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/184656> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/184656> <http://data.linkedmdb.org/resource/movie/performance_character> "Pooch" .
 <http://data.linkedmdb.org/resource/performance/184656> <http://data.linkedmdb.org/resource/movie/performance_film> "The Losers" .
 <http://data.linkedmdb.org/resource/performance/184656> <http://www.w3.org/2000/01/rdf-schema#label> "performance #184656" .
 <http://data.linkedmdb.org/resource/performance/184656> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/13161> .
 <http://data.linkedmdb.org/resource/performance/184656> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/184656> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000fd6b027> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/184809> .
 <http://data.linkedmdb.org/resource/film/95572> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/184809> .
-<http://data.linkedmdb.org/resource/performance/184809> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/184809> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "184809"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/184809> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/184809> <http://data.linkedmdb.org/resource/movie/performance_film> "Death at a Funeral (Screen Gems)" .
 <http://data.linkedmdb.org/resource/performance/184809> <http://www.w3.org/2000/01/rdf-schema#label> "performance #184809" .
 <http://data.linkedmdb.org/resource/performance/184809> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/184809> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000fd855ff> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/198141> .
 <http://data.linkedmdb.org/resource/film/98212> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/198141> .
-<http://data.linkedmdb.org/resource/performance/198141> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/198141> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "198141"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/198141> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/198141> <http://data.linkedmdb.org/resource/movie/performance_film> "Stomp the Yard 2: Homecoming" .
 <http://data.linkedmdb.org/resource/performance/198141> <http://www.w3.org/2000/01/rdf-schema#label> "performance #198141" .
 <http://data.linkedmdb.org/resource/performance/198141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/198141> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000001301a23d> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/45160> .
 <http://data.linkedmdb.org/resource/film/11393> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/45160> .
-<http://data.linkedmdb.org/resource/performance/45160> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/45160> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "45160"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/45160> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/45160> <http://data.linkedmdb.org/resource/movie/performance_film> "Stomp the Yard" .
 <http://data.linkedmdb.org/resource/performance/45160> <http://www.w3.org/2000/01/rdf-schema#label> "performance #45160" .
 <http://data.linkedmdb.org/resource/performance/45160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/45160> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000595174d> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/67713> .
 <http://data.linkedmdb.org/resource/film/13716> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/67713> .
-<http://data.linkedmdb.org/resource/performance/67713> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/67713> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "67713"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/67713> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/67713> <http://data.linkedmdb.org/resource/movie/performance_film> "Save the Last Dance 2" .
 <http://data.linkedmdb.org/resource/performance/67713> <http://www.w3.org/2000/01/rdf-schema#label> "performance #67713" .
 <http://data.linkedmdb.org/resource/performance/67713> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/67713> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a5e33f> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/75295> .
 <http://data.linkedmdb.org/resource/film/20724> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/75295> .
-<http://data.linkedmdb.org/resource/performance/75295> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/75295> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "75295"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/75295> <http://data.linkedmdb.org/resource/movie/performance_character> "Claude Whitfield" .
-<http://data.linkedmdb.org/resource/performance/75295> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/75295> <http://data.linkedmdb.org/resource/movie/performance_film> "This Christmas" .
 <http://data.linkedmdb.org/resource/performance/75295> <http://www.w3.org/2000/01/rdf-schema#label> "performance #75295" .
 <http://data.linkedmdb.org/resource/performance/75295> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/2878> .
 <http://data.linkedmdb.org/resource/performance/75295> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/75295> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005f4a67a> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/83567> .
 <http://data.linkedmdb.org/resource/film/47737> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/83567> .
-<http://data.linkedmdb.org/resource/performance/83567> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/83567> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "83567"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/83567> <http://data.linkedmdb.org/resource/movie/performance_film> "Accepted" .
-<http://data.linkedmdb.org/resource/performance/83567> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/83567> <http://www.w3.org/2000/01/rdf-schema#label> "performance #83567" .
 <http://data.linkedmdb.org/resource/performance/83567> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/83567> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000070bc723> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/91100> .
 <http://data.linkedmdb.org/resource/film/17222> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/91100> .
-<http://data.linkedmdb.org/resource/performance/91100> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/91100> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "91100"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/91100> <http://data.linkedmdb.org/resource/movie/performance_actor> "Columbus Short" .
 <http://data.linkedmdb.org/resource/performance/91100> <http://data.linkedmdb.org/resource/movie/performance_film> "Whiteout" .
 <http://data.linkedmdb.org/resource/performance/91100> <http://www.w3.org/2000/01/rdf-schema#label> "performance #91100" .
 <http://data.linkedmdb.org/resource/performance/91100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/91100> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000071eb6ed> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000000d56ae3> .
 <http://data.linkedmdb.org/resource/actor/10117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/10229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/10277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -1697,7 +1655,6 @@
 <http://data.linkedmdb.org/resource/actor/46829> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/46898> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/46958> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.linkedmdb.org/resource/actor/47032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/47098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/47463> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/47469> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .

@@ -74,7 +74,6 @@
 <http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/7289> .
 <http://data.linkedmdb.org/resource/actor/29369> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000000006567> .
 <http://data.linkedmdb.org/resource/actor/29369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/29405> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/29477> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/29614> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
@@ -812,9 +811,6 @@
 <http://data.linkedmdb.org/resource/performance/42430> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/70134> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/75295> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/actor_actorid> "29369"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://www.w3.org/2000/01/rdf-schema#label> "Arnold Schwarzenegger (Actor)" .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/actor_name> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/10139> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/10231> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/108170> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
@@ -881,7 +877,6 @@
 <http://data.linkedmdb.org/resource/actor/2834> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/2835> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/286> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/29405> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/29449> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/29477> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
@@ -1298,350 +1293,244 @@
 <http://data.linkedmdb.org/resource/actor/9697> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/9785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/9999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/10139> .
 <http://data.linkedmdb.org/resource/film/44002> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/10139> .
-<http://data.linkedmdb.org/resource/performance/10139> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/10139> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "10139"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/10139> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/10139> <http://data.linkedmdb.org/resource/movie/performance_film> "End of Days" .
 <http://data.linkedmdb.org/resource/performance/10139> <http://www.w3.org/2000/01/rdf-schema#label> "performance #10139" .
 <http://data.linkedmdb.org/resource/performance/10139> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/8276> .
 <http://data.linkedmdb.org/resource/performance/10139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/10139> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000010e6adb> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/10231> .
 <http://data.linkedmdb.org/resource/film/979> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/10231> .
-<http://data.linkedmdb.org/resource/performance/10231> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/10231> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "10231"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/10231> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/10231> <http://data.linkedmdb.org/resource/movie/performance_film> "Eraser" .
 <http://data.linkedmdb.org/resource/performance/10231> <http://www.w3.org/2000/01/rdf-schema#label> "performance #10231" .
 <http://data.linkedmdb.org/resource/performance/10231> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/8279> .
 <http://data.linkedmdb.org/resource/performance/10231> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/10231> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000010e6f86> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/108170> .
 <http://data.linkedmdb.org/resource/film/5167> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/108170> .
-<http://data.linkedmdb.org/resource/performance/108170> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/108170> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "108170"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/108170> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/108170> <http://data.linkedmdb.org/resource/movie/performance_character> "Conan the Barbarian" .
 <http://data.linkedmdb.org/resource/performance/108170> <http://www.w3.org/2000/01/rdf-schema#label> "performance #108170" .
 <http://data.linkedmdb.org/resource/performance/108170> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/3904> .
 <http://data.linkedmdb.org/resource/performance/108170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/108170> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000080fcb5a> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/108573> .
 <http://data.linkedmdb.org/resource/film/38490> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/108573> .
-<http://data.linkedmdb.org/resource/performance/108573> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/108573> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "108573"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/108573> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/108573> <http://data.linkedmdb.org/resource/movie/performance_film> "Pumping Iron" .
 <http://data.linkedmdb.org/resource/performance/108573> <http://www.w3.org/2000/01/rdf-schema#label> "performance #108573" .
 <http://data.linkedmdb.org/resource/performance/108573> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/108573> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000085e1961> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/122075> .
 <http://data.linkedmdb.org/resource/film/59172> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/122075> .
-<http://data.linkedmdb.org/resource/performance/122075> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/122075> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "122075"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/122075> <http://data.linkedmdb.org/resource/movie/performance_film> "A Century of Science Fiction" .
-<http://data.linkedmdb.org/resource/performance/122075> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/122075> <http://www.w3.org/2000/01/rdf-schema#label> "performance #122075" .
 <http://data.linkedmdb.org/resource/performance/122075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/122075> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000009006795> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/130707> .
 <http://data.linkedmdb.org/resource/film/65937> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/130707> .
-<http://data.linkedmdb.org/resource/performance/130707> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/130707> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "130707"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/130707> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/130707> <http://data.linkedmdb.org/resource/movie/performance_film> "The Jayne Mansfield Story" .
 <http://data.linkedmdb.org/resource/performance/130707> <http://www.w3.org/2000/01/rdf-schema#label> "performance #130707" .
 <http://data.linkedmdb.org/resource/performance/130707> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/130707> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000092b7e02> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/150932> .
 <http://data.linkedmdb.org/resource/film/38151> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/150932> .
-<http://data.linkedmdb.org/resource/performance/150932> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/150932> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "150932"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/150932> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/150932> <http://data.linkedmdb.org/resource/movie/performance_character> "T-800" .
 <http://data.linkedmdb.org/resource/performance/150932> <http://data.linkedmdb.org/resource/movie/performance_film> "The Terminator" .
 <http://data.linkedmdb.org/resource/performance/150932> <http://www.w3.org/2000/01/rdf-schema#label> "performance #150932" .
 <http://data.linkedmdb.org/resource/performance/150932> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/4520> .
 <http://data.linkedmdb.org/resource/performance/150932> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/150932> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000ac5a34e> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/153297> .
 <http://data.linkedmdb.org/resource/film/39119> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/153297> .
-<http://data.linkedmdb.org/resource/performance/153297> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/153297> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "153297"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/153297> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/153297> <http://data.linkedmdb.org/resource/movie/performance_film> "The Rundown" .
 <http://data.linkedmdb.org/resource/performance/153297> <http://www.w3.org/2000/01/rdf-schema#label> "performance #153297" .
 <http://data.linkedmdb.org/resource/performance/153297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/153297> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000b43c8dd> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/155111> .
 <http://data.linkedmdb.org/resource/film/54780> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/155111> .
-<http://data.linkedmdb.org/resource/performance/155111> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/155111> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "155111"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/155111> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/155111> <http://data.linkedmdb.org/resource/movie/performance_film> "Terminator Salvation" .
 <http://data.linkedmdb.org/resource/performance/155111> <http://www.w3.org/2000/01/rdf-schema#label> "performance #155111" .
 <http://data.linkedmdb.org/resource/performance/155111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/155111> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000b4c2e55> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/15940> .
 <http://data.linkedmdb.org/resource/film/40930> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/15940> .
-<http://data.linkedmdb.org/resource/performance/15940> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/15940> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "15940"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/15940> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/15940> <http://data.linkedmdb.org/resource/movie/performance_film> "Jingle All the Way" .
 <http://data.linkedmdb.org/resource/performance/15940> <http://www.w3.org/2000/01/rdf-schema#label> "performance #15940" .
 <http://data.linkedmdb.org/resource/performance/15940> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/8274> .
 <http://data.linkedmdb.org/resource/performance/15940> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/15940> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000010f967f> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/16696> .
 <http://data.linkedmdb.org/resource/film/40490> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/16696> .
-<http://data.linkedmdb.org/resource/performance/16696> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/16696> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "16696"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/16696> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/16696> <http://data.linkedmdb.org/resource/movie/performance_film> "Kindergarten Cop" .
 <http://data.linkedmdb.org/resource/performance/16696> <http://www.w3.org/2000/01/rdf-schema#label> "performance #16696" .
 <http://data.linkedmdb.org/resource/performance/16696> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/5539> .
 <http://data.linkedmdb.org/resource/performance/16696> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/16696> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000010fbc3e> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/170732> .
 <http://data.linkedmdb.org/resource/film/8441> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/170732> .
-<http://data.linkedmdb.org/resource/performance/170732> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/170732> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "170732"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/170732> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/170732> <http://data.linkedmdb.org/resource/movie/performance_film> "Scavenger Hunt" .
 <http://data.linkedmdb.org/resource/performance/170732> <http://www.w3.org/2000/01/rdf-schema#label> "performance #170732" .
 <http://data.linkedmdb.org/resource/performance/170732> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/170732> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000c6249b7> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/172514> .
 <http://data.linkedmdb.org/resource/film/1346> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/172514> .
-<http://data.linkedmdb.org/resource/performance/172514> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/172514> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "172514"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/172514> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/172514> <http://data.linkedmdb.org/resource/movie/performance_film> "Dr. Dolittle 2" .
 <http://data.linkedmdb.org/resource/performance/172514> <http://www.w3.org/2000/01/rdf-schema#label> "performance #172514" .
 <http://data.linkedmdb.org/resource/performance/172514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/172514> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000db774ef> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/17411> .
 <http://data.linkedmdb.org/resource/film/39882> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/17411> .
-<http://data.linkedmdb.org/resource/performance/17411> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/17411> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "17411"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/17411> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/17411> <http://data.linkedmdb.org/resource/movie/performance_film> "Last Action Hero" .
 <http://data.linkedmdb.org/resource/performance/17411> <http://www.w3.org/2000/01/rdf-schema#label> "performance #17411" .
 <http://data.linkedmdb.org/resource/performance/17411> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/8277> .
 <http://data.linkedmdb.org/resource/performance/17411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/17411> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000010fe294> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/23316> .
 <http://data.linkedmdb.org/resource/film/584> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/23316> .
-<http://data.linkedmdb.org/resource/performance/23316> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/23316> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "23316"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/23316> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/23316> <http://data.linkedmdb.org/resource/movie/performance_character> "Dutch" .
 <http://data.linkedmdb.org/resource/performance/23316> <http://data.linkedmdb.org/resource/movie/performance_film> "Predator" .
 <http://data.linkedmdb.org/resource/performance/23316> <http://www.w3.org/2000/01/rdf-schema#label> "performance #23316" .
 <http://data.linkedmdb.org/resource/performance/23316> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/3448> .
 <http://data.linkedmdb.org/resource/performance/23316> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/23316> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000011107c3> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/24035> .
 <http://data.linkedmdb.org/resource/film/2200> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/24035> .
-<http://data.linkedmdb.org/resource/performance/24035> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/24035> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "24035"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/24035> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/24035> <http://data.linkedmdb.org/resource/movie/performance_film> "Raw Deal" .
 <http://data.linkedmdb.org/resource/performance/24035> <http://www.w3.org/2000/01/rdf-schema#label> "performance #24035" .
 <http://data.linkedmdb.org/resource/performance/24035> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/8281> .
 <http://data.linkedmdb.org/resource/performance/24035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/24035> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000001112c40> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/24169> .
 <http://data.linkedmdb.org/resource/film/39250> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/24169> .
-<http://data.linkedmdb.org/resource/performance/24169> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/24169> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "24169"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/24169> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/24169> <http://data.linkedmdb.org/resource/movie/performance_film> "Red Heat" .
 <http://data.linkedmdb.org/resource/performance/24169> <http://www.w3.org/2000/01/rdf-schema#label> "performance #24169" .
 <http://data.linkedmdb.org/resource/performance/24169> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/8280> .
 <http://data.linkedmdb.org/resource/performance/24169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/24169> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000001113280> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/24196> .
 <http://data.linkedmdb.org/resource/film/4477> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/24196> .
-<http://data.linkedmdb.org/resource/performance/24196> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/24196> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "24196"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/24196> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/24196> <http://data.linkedmdb.org/resource/movie/performance_film> "Red Sonja" .
 <http://data.linkedmdb.org/resource/performance/24196> <http://www.w3.org/2000/01/rdf-schema#label> "performance #24196" .
 <http://data.linkedmdb.org/resource/performance/24196> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/8278> .
 <http://data.linkedmdb.org/resource/performance/24196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/24196> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000011133c1> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/27714> .
 <http://data.linkedmdb.org/resource/film/5235> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/27714> .
-<http://data.linkedmdb.org/resource/performance/27714> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/27714> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "27714"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/27714> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/27714> <http://data.linkedmdb.org/resource/movie/performance_film> "Stay Hungry" .
 <http://data.linkedmdb.org/resource/performance/27714> <http://www.w3.org/2000/01/rdf-schema#label> "performance #27714" .
 <http://data.linkedmdb.org/resource/performance/27714> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/27714> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000111e0c9> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/28799> .
 <http://data.linkedmdb.org/resource/film/578> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/28799> .
-<http://data.linkedmdb.org/resource/performance/28799> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/28799> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "28799"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/28799> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/28799> <http://data.linkedmdb.org/resource/movie/performance_film> "Terminator 3: Rise of the Machines" .
 <http://data.linkedmdb.org/resource/performance/28799> <http://www.w3.org/2000/01/rdf-schema#label> "performance #28799" .
 <http://data.linkedmdb.org/resource/performance/28799> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/2565> .
 <http://data.linkedmdb.org/resource/performance/28799> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/28799> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000112153c> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/28803> .
 <http://data.linkedmdb.org/resource/film/33> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/28803> .
-<http://data.linkedmdb.org/resource/performance/28803> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/28803> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "28803"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/28803> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/28803> <http://data.linkedmdb.org/resource/movie/performance_film> "Terminator 2: Judgment Day" .
 <http://data.linkedmdb.org/resource/performance/28803> <http://data.linkedmdb.org/resource/movie/performance_character> "Terminator" .
 <http://data.linkedmdb.org/resource/performance/28803> <http://www.w3.org/2000/01/rdf-schema#label> "performance #28803" .
 <http://data.linkedmdb.org/resource/performance/28803> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/2565> .
 <http://data.linkedmdb.org/resource/performance/28803> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/28803> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000001121567> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/28975> .
 <http://data.linkedmdb.org/resource/film/40118> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/28975> .
-<http://data.linkedmdb.org/resource/performance/28975> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/28975> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "28975"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/28975> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/28975> <http://data.linkedmdb.org/resource/movie/performance_film> "The 6th Day" .
 <http://data.linkedmdb.org/resource/performance/28975> <http://www.w3.org/2000/01/rdf-schema#label> "performance #28975" .
 <http://data.linkedmdb.org/resource/performance/28975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/28975> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000001121ceb> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/35380> .
 <http://data.linkedmdb.org/resource/film/38151> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/35380> .
-<http://data.linkedmdb.org/resource/performance/35380> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/35380> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "35380"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/35380> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/35380> <http://data.linkedmdb.org/resource/movie/performance_character> "Cyborg t800" .
 <http://data.linkedmdb.org/resource/performance/35380> <http://data.linkedmdb.org/resource/movie/performance_film> "The Terminator" .
 <http://data.linkedmdb.org/resource/performance/35380> <http://www.w3.org/2000/01/rdf-schema#label> "performance #35380" .
 <http://data.linkedmdb.org/resource/performance/35380> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/2230> .
 <http://data.linkedmdb.org/resource/performance/35380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/35380> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000001134fe5> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/3688> .
 <http://data.linkedmdb.org/resource/film/4> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/3688> .
-<http://data.linkedmdb.org/resource/performance/3688> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/3688> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "3688"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/3688> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/3688> <http://data.linkedmdb.org/resource/movie/performance_film> "Batman & Robin" .
 <http://data.linkedmdb.org/resource/performance/3688> <http://www.w3.org/2000/01/rdf-schema#label> "performance #3688" .
 <http://data.linkedmdb.org/resource/performance/3688> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/4287> .
 <http://data.linkedmdb.org/resource/performance/3688> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/3688> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000010d092d> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/37111> .
 <http://data.linkedmdb.org/resource/film/38231> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/37111> .
-<http://data.linkedmdb.org/resource/performance/37111> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/37111> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "37111"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/37111> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/37111> <http://data.linkedmdb.org/resource/movie/performance_character> "Quaid" .
 <http://data.linkedmdb.org/resource/performance/37111> <http://data.linkedmdb.org/resource/movie/performance_film> "Total Recall" .
 <http://data.linkedmdb.org/resource/performance/37111> <http://www.w3.org/2000/01/rdf-schema#label> "performance #37111" .
 <http://data.linkedmdb.org/resource/performance/37111> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/2317> .
 <http://data.linkedmdb.org/resource/performance/37111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/37111> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000113a199> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/37403> .
 <http://data.linkedmdb.org/resource/film/38324> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/37403> .
-<http://data.linkedmdb.org/resource/performance/37403> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/37403> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "37403"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/37403> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/37403> <http://data.linkedmdb.org/resource/movie/performance_character> "Harry Trasker" .
 <http://data.linkedmdb.org/resource/performance/37403> <http://data.linkedmdb.org/resource/movie/performance_film> "True Lies" .
 <http://data.linkedmdb.org/resource/performance/37403> <http://www.w3.org/2000/01/rdf-schema#label> "performance #37403" .
 <http://data.linkedmdb.org/resource/performance/37403> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/2341> .
 <http://data.linkedmdb.org/resource/performance/37403> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/37403> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000113af5d> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/37548> .
 <http://data.linkedmdb.org/resource/film/2105> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/37548> .
-<http://data.linkedmdb.org/resource/performance/37548> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/37548> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "37548"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/37548> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/37548> <http://data.linkedmdb.org/resource/movie/performance_character> "Julius" .
 <http://data.linkedmdb.org/resource/performance/37548> <http://data.linkedmdb.org/resource/movie/performance_film> "Twins" .
 <http://data.linkedmdb.org/resource/performance/37548> <http://www.w3.org/2000/01/rdf-schema#label> "performance #37548" .
 <http://data.linkedmdb.org/resource/performance/37548> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/2348> .
 <http://data.linkedmdb.org/resource/performance/37548> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/37548> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000113b60c> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/42948> .
 <http://data.linkedmdb.org/resource/film/9876> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/42948> .
-<http://data.linkedmdb.org/resource/performance/42948> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/42948> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "42948"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/42948> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/42948> <http://data.linkedmdb.org/resource/movie/performance_film> "The Running Man" .
 <http://data.linkedmdb.org/resource/performance/42948> <http://www.w3.org/2000/01/rdf-schema#label> "performance #42948" .
 <http://data.linkedmdb.org/resource/performance/42948> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/42948> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000594fd61> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/45946> .
 <http://data.linkedmdb.org/resource/film/43683> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/45946> .
-<http://data.linkedmdb.org/resource/performance/45946> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/45946> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "45946"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/45946> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/45946> <http://data.linkedmdb.org/resource/movie/performance_film> "The Villain" .
 <http://data.linkedmdb.org/resource/performance/45946> <http://www.w3.org/2000/01/rdf-schema#label> "performance #45946" .
 <http://data.linkedmdb.org/resource/performance/45946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/45946> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005952083> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/48657> .
 <http://data.linkedmdb.org/resource/film/3296> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/48657> .
-<http://data.linkedmdb.org/resource/performance/48657> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/48657> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "48657"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/48657> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/48657> <http://data.linkedmdb.org/resource/movie/performance_film> "T2 3-D: Battle Across Time" .
 <http://data.linkedmdb.org/resource/performance/48657> <http://www.w3.org/2000/01/rdf-schema#label> "performance #48657" .
 <http://data.linkedmdb.org/resource/performance/48657> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/48657> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005954058> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/66980> .
 <http://data.linkedmdb.org/resource/film/2078> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/66980> .
-<http://data.linkedmdb.org/resource/performance/66980> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/66980> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "66980"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/66980> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/66980> <http://data.linkedmdb.org/resource/movie/performance_film> "Junior" .
 <http://data.linkedmdb.org/resource/performance/66980> <http://www.w3.org/2000/01/rdf-schema#label> "performance #66980" .
 <http://data.linkedmdb.org/resource/performance/66980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/66980> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a5daa8> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/71211> .
 <http://data.linkedmdb.org/resource/film/39464> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/71211> .
-<http://data.linkedmdb.org/resource/performance/71211> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/71211> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "71211"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/71211> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/71211> <http://data.linkedmdb.org/resource/movie/performance_film> "Hercules in New York" .
 <http://data.linkedmdb.org/resource/performance/71211> <http://www.w3.org/2000/01/rdf-schema#label> "performance #71211" .
 <http://data.linkedmdb.org/resource/performance/71211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/71211> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000005a60c3d> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/7173> .
 <http://data.linkedmdb.org/resource/film/705> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/7173> .
-<http://data.linkedmdb.org/resource/performance/7173> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/7173> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "7173"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/7173> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/7173> <http://data.linkedmdb.org/resource/movie/performance_film> "Collateral Damage" .
 <http://data.linkedmdb.org/resource/performance/7173> <http://www.w3.org/2000/01/rdf-schema#label> "performance #7173" .
 <http://data.linkedmdb.org/resource/performance/7173> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/8275> .
 <http://data.linkedmdb.org/resource/performance/7173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/7173> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000010dc7fe> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/7258> .
 <http://data.linkedmdb.org/resource/film/585> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/7258> .
-<http://data.linkedmdb.org/resource/performance/7258> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/7258> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "7258"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/7258> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/7258> <http://data.linkedmdb.org/resource/movie/performance_film> "Commando" .
 <http://data.linkedmdb.org/resource/performance/7258> <http://www.w3.org/2000/01/rdf-schema#label> "performance #7258" .
 <http://data.linkedmdb.org/resource/performance/7258> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/5446> .
 <http://data.linkedmdb.org/resource/performance/7258> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/7258> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000010dcc4a> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/7289> .
 <http://data.linkedmdb.org/resource/film/40536> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/7289> .
-<http://data.linkedmdb.org/resource/performance/7289> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/7289> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "7289"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/7289> <http://data.linkedmdb.org/resource/movie/performance_actor> "Arnold Schwarzenegger" .
 <http://data.linkedmdb.org/resource/performance/7289> <http://data.linkedmdb.org/resource/movie/performance_film> "Conan the Destroyer" .
 <http://data.linkedmdb.org/resource/performance/7289> <http://www.w3.org/2000/01/rdf-schema#label> "performance #7289" .
 <http://data.linkedmdb.org/resource/performance/7289> <http://data.linkedmdb.org/resource/movie/film_character> <http://data.linkedmdb.org/resource/film_character/3904> .
 <http://data.linkedmdb.org/resource/performance/7289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/7289> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000010dcdb1> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000000006567> .
 <http://data.linkedmdb.org/resource/actor/10117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/10229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/10277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -1673,7 +1562,6 @@
 <http://data.linkedmdb.org/resource/actor/2834> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/2835> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/286> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.linkedmdb.org/resource/actor/29369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/29405> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/29449> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/29477> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .

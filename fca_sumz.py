@@ -13,8 +13,8 @@ version = '1.0'
 
 # Configurations
 # =============================================================================
-# esbm_benchmark_path = './ESBM_plus/'
-esbm_benchmark_path = './ESBM_benchmark/'
+esbm_benchmark_path = './ESBM_plus/'
+# esbm_benchmark_path = './ESBM_benchmark/'
 
 fca_lattice_path = './KAFCA_lattice/'
 kafca_final_result_path = './KAFCA_result/'
@@ -136,10 +136,13 @@ def main():
 
             final_rank[s + sep + p + sep + o] = default_score
 
+        cache = set()
         for spo, v in sorted(final_rank.items(), key=lambda x: x[1], reverse=True):
             tmp_fca_list = [''] * len(property_list)
 
-            s, p, o = spo.split(sep)
+            if (s, p, o) in cache:
+                continue
+            cache.add((s, p, o))
             tmp_fca_list[0] = p + sep + o
             tmp_fca_list[property_list.index(p)] = 'X'
 

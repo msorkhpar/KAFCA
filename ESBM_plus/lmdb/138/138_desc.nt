@@ -191,7 +191,6 @@
 <http://data.linkedmdb.org/resource/actor/61176> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/61226> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/61227> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/actor/67878> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .
 <http://data.linkedmdb.org/resource/film/46687> <http://data.linkedmdb.org/resource/movie/initial_release_date> "" .
 <http://data.linkedmdb.org/resource/film/49262> <http://data.linkedmdb.org/resource/movie/initial_release_date> "" .
@@ -777,9 +776,6 @@
 <http://data.linkedmdb.org/resource/performance/42430> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/70134> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
 <http://data.linkedmdb.org/resource/performance/75295> <http://data.linkedmdb.org/resource/movie/performance_name> "" .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/actor_actorid> "62725"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://www.w3.org/2000/01/rdf-schema#label> "Rod Daily (Actor)" .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/actor_name> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/158778> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/158782> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/158783> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
@@ -1216,7 +1212,6 @@
 <http://data.linkedmdb.org/resource/actor/62307> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/6246> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/6247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/64758> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/66858> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/67105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
@@ -1245,160 +1240,108 @@
 <http://data.linkedmdb.org/resource/actor/9697> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/9785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
 <http://data.linkedmdb.org/resource/actor/9999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/158778> .
 <http://data.linkedmdb.org/resource/film/78626> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/158778> .
-<http://data.linkedmdb.org/resource/performance/158778> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/158778> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "158778"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/158778> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/158778> <http://data.linkedmdb.org/resource/movie/performance_film> "Screwed" .
 <http://data.linkedmdb.org/resource/performance/158778> <http://www.w3.org/2000/01/rdf-schema#label> "performance #158778" .
 <http://data.linkedmdb.org/resource/performance/158778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/158778> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000b91415c> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/158782> .
 <http://data.linkedmdb.org/resource/film/75057> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/158782> .
-<http://data.linkedmdb.org/resource/performance/158782> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/158782> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "158782"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/158782> <http://data.linkedmdb.org/resource/movie/performance_film> "Hung Country for Young Men" .
-<http://data.linkedmdb.org/resource/performance/158782> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/158782> <http://www.w3.org/2000/01/rdf-schema#label> "performance #158782" .
 <http://data.linkedmdb.org/resource/performance/158782> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/158782> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000b914293> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/158783> .
 <http://data.linkedmdb.org/resource/film/73676> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/158783> .
-<http://data.linkedmdb.org/resource/performance/158783> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/158783> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "158783"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/158783> <http://data.linkedmdb.org/resource/movie/performance_film> "ASS CRUISINâ" .
-<http://data.linkedmdb.org/resource/performance/158783> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/158783> <http://www.w3.org/2000/01/rdf-schema#label> "performance #158783" .
 <http://data.linkedmdb.org/resource/performance/158783> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/158783> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000b914298> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/158784> .
 <http://data.linkedmdb.org/resource/film/73677> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/158784> .
-<http://data.linkedmdb.org/resource/performance/158784> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/158784> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "158784"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/158784> <http://data.linkedmdb.org/resource/movie/performance_film> "BEST MEN 1-2" .
-<http://data.linkedmdb.org/resource/performance/158784> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/158784> <http://www.w3.org/2000/01/rdf-schema#label> "performance #158784" .
 <http://data.linkedmdb.org/resource/performance/158784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/158784> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000b91429d> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/161551> .
 <http://data.linkedmdb.org/resource/film/75121> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/161551> .
-<http://data.linkedmdb.org/resource/performance/161551> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/161551> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "161551"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/161551> <http://data.linkedmdb.org/resource/movie/performance_film> "Asylum" .
-<http://data.linkedmdb.org/resource/performance/161551> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/161551> <http://www.w3.org/2000/01/rdf-schema#label> "performance #161551" .
 <http://data.linkedmdb.org/resource/performance/161551> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/161551> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000b9f7986> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/165873> .
 <http://data.linkedmdb.org/resource/film/81274> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/165873> .
-<http://data.linkedmdb.org/resource/performance/165873> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/165873> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "165873"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/165873> <http://data.linkedmdb.org/resource/movie/performance_film> "Big Dick Society II: Dicktimized" .
-<http://data.linkedmdb.org/resource/performance/165873> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/165873> <http://www.w3.org/2000/01/rdf-schema#label> "performance #165873" .
 <http://data.linkedmdb.org/resource/performance/165873> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/165873> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000bf7258c> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/168338> .
 <http://data.linkedmdb.org/resource/film/81918> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/168338> .
-<http://data.linkedmdb.org/resource/performance/168338> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/168338> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "168338"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/168338> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/168338> <http://data.linkedmdb.org/resource/movie/performance_film> "Straight Edge 2" .
 <http://data.linkedmdb.org/resource/performance/168338> <http://www.w3.org/2000/01/rdf-schema#label> "performance #168338" .
 <http://data.linkedmdb.org/resource/performance/168338> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/168338> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000c3cc8f2> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/168400> .
 <http://data.linkedmdb.org/resource/film/82265> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/168400> .
-<http://data.linkedmdb.org/resource/performance/168400> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/168400> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "168400"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/168400> <http://data.linkedmdb.org/resource/movie/performance_film> "Best Men, Part Two: The Wedding Party" .
-<http://data.linkedmdb.org/resource/performance/168400> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/168400> <http://www.w3.org/2000/01/rdf-schema#label> "performance #168400" .
 <http://data.linkedmdb.org/resource/performance/168400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/168400> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000c3e4e18> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/168416> .
 <http://data.linkedmdb.org/resource/film/82264> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/168416> .
-<http://data.linkedmdb.org/resource/performance/168416> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/168416> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "168416"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/168416> <http://data.linkedmdb.org/resource/movie/performance_film> "Best Men, Part One: The Bachelor Party" .
-<http://data.linkedmdb.org/resource/performance/168416> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/168416> <http://www.w3.org/2000/01/rdf-schema#label> "performance #168416" .
 <http://data.linkedmdb.org/resource/performance/168416> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/168416> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000c3e5138> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/169257> .
 <http://data.linkedmdb.org/resource/film/83968> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/169257> .
-<http://data.linkedmdb.org/resource/performance/169257> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/169257> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "169257"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/169257> <http://data.linkedmdb.org/resource/movie/performance_film> "Rascal: A Toy Story" .
-<http://data.linkedmdb.org/resource/performance/169257> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/169257> <http://www.w3.org/2000/01/rdf-schema#label> "performance #169257" .
 <http://data.linkedmdb.org/resource/performance/169257> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/169257> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000c47c24b> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/170153> .
 <http://data.linkedmdb.org/resource/film/84979> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/170153> .
-<http://data.linkedmdb.org/resource/performance/170153> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/170153> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "170153"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/170153> <http://data.linkedmdb.org/resource/movie/performance_film> "Missionary in Argentina" .
-<http://data.linkedmdb.org/resource/performance/170153> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/170153> <http://www.w3.org/2000/01/rdf-schema#label> "performance #170153" .
 <http://data.linkedmdb.org/resource/performance/170153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/170153> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000c5963a0> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/170221> .
 <http://data.linkedmdb.org/resource/film/85082> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/170221> .
-<http://data.linkedmdb.org/resource/performance/170221> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/170221> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "170221"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/170221> <http://data.linkedmdb.org/resource/movie/performance_film> "My Brothers Hot Friend 02" .
-<http://data.linkedmdb.org/resource/performance/170221> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/170221> <http://www.w3.org/2000/01/rdf-schema#label> "performance #170221" .
 <http://data.linkedmdb.org/resource/performance/170221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/170221> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000c598b7f> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/171445> .
 <http://data.linkedmdb.org/resource/film/86296> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/171445> .
-<http://data.linkedmdb.org/resource/performance/171445> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/171445> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "171445"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/performance/171445> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/171445> <http://data.linkedmdb.org/resource/movie/performance_film> "Tread Heavy" .
 <http://data.linkedmdb.org/resource/performance/171445> <http://www.w3.org/2000/01/rdf-schema#label> "performance #171445" .
 <http://data.linkedmdb.org/resource/performance/171445> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/171445> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000cabba17> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/173697> .
 <http://data.linkedmdb.org/resource/film/83479> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/173697> .
-<http://data.linkedmdb.org/resource/performance/173697> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/173697> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "173697"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/173697> <http://data.linkedmdb.org/resource/movie/performance_film> "Hot Jocks Nice Cocks 3" .
-<http://data.linkedmdb.org/resource/performance/173697> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/173697> <http://www.w3.org/2000/01/rdf-schema#label> "performance #173697" .
 <http://data.linkedmdb.org/resource/performance/173697> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/173697> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000de748e3> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/173723> .
 <http://data.linkedmdb.org/resource/film/83452> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/173723> .
-<http://data.linkedmdb.org/resource/performance/173723> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/173723> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "173723"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/173723> <http://data.linkedmdb.org/resource/movie/performance_film> "Men Hard at Work, Volume 2" .
-<http://data.linkedmdb.org/resource/performance/173723> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/173723> <http://www.w3.org/2000/01/rdf-schema#label> "performance #173723" .
 <http://data.linkedmdb.org/resource/performance/173723> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/173723> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000de74cac> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/188409> .
 <http://data.linkedmdb.org/resource/film/97147> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/188409> .
-<http://data.linkedmdb.org/resource/performance/188409> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/188409> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "188409"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/188409> <http://data.linkedmdb.org/resource/movie/performance_film> "Aged To Pefection: Volume 1" .
-<http://data.linkedmdb.org/resource/performance/188409> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/188409> <http://www.w3.org/2000/01/rdf-schema#label> "performance #188409" .
 <http://data.linkedmdb.org/resource/performance/188409> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/188409> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000010c6675b> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/189411> .
 <http://data.linkedmdb.org/resource/film/97520> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/189411> .
-<http://data.linkedmdb.org/resource/performance/189411> <http://data.linkedmdb.org/resource/movie/performance_character> "" .
 <http://data.linkedmdb.org/resource/performance/189411> <http://data.linkedmdb.org/resource/movie/performance_performanceid> "189411"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://data.linkedmdb.org/resource/performance/189411> <http://data.linkedmdb.org/resource/movie/performance_film> "Movers N Shakers" .
-<http://data.linkedmdb.org/resource/performance/189411> <http://data.linkedmdb.org/resource/movie/performance_actor> "Rod Daily" .
 <http://data.linkedmdb.org/resource/performance/189411> <http://www.w3.org/2000/01/rdf-schema#label> "performance #189411" .
 <http://data.linkedmdb.org/resource/performance/189411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/performance> .
 <http://data.linkedmdb.org/resource/performance/189411> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000001173ebe9> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f800000000b91415f> .
 <http://data.linkedmdb.org/resource/actor/10117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/10229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/10277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -1818,7 +1761,6 @@
 <http://data.linkedmdb.org/resource/actor/62307> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/6246> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/6247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.linkedmdb.org/resource/actor/62725> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/64758> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/66858> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://data.linkedmdb.org/resource/actor/67105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
