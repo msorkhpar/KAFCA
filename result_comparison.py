@@ -110,8 +110,9 @@ def fetch_ground_truth(node, db):
 
 def loop_results():
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    run_name = "results_kafca"
-    read_result_folder(dir_path, run_name)
+    for result_run in range(1, 11):
+        run_name = "result_" + str(result_run)
+        read_result_folder(dir_path + os.sep + "results_kafca_esbm", run_name)
     pretty = json.dumps(results, indent=4)
     print(pretty)
     with open(dir_path + os.sep + 'result_comparison_results.json', 'w') as file_name:
