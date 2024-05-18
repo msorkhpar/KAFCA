@@ -1,0 +1,4 @@
+scikit-learn
+lda
+SPARQLWrapper
+rdflib
