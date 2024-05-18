@@ -3,6 +3,8 @@ WORKING_DIR="$(pwd)/ESBM-eval"
 ESBM_VERSION="v1.2"
 ESBM_NAME="ESBM_benchmark_v1.2"
 ESBM_EVAL_JAR_NAME="esummeval_v1.2.jar"
+ARCHIVE_DIR="$WORKING_DIR/archive"
+mkdir -p "$ARCHIVE_DIR"
 
 function to_float() {
   echo "$1" | bc -l
@@ -55,5 +57,7 @@ for ((i = 1; i <= 10; i++)); do
   done <<<"$result"
   echo "$f_measure_dbpedia_5, $f_measure_dbpedia_10, $f_measure_lmdb_5, $f_measure_lmdb_10" >>F_measure.csv
   echo "$ndcg_dbpedia_5, $ndcg_dbpedia_10, $ndcg_lmdb_5, $ndcg_lmdb_10" >>NDCG.csv
+  cp -r "$WORKING_DIR/result" "$ARCHIVE_DIR/result_$i"
+
 
 done
